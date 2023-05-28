@@ -4,21 +4,28 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Homework 10</title>
-    <!-- Add the necessary CSS and JavaScript libraries for styling and functionality -->
-    <link rel="stylesheet" href="path/to/slimselect.css" />
-    <script src="path/to/slimselect.js"></script>
-    <link rel="stylesheet" href="path/to/cssloader.css" />
-    <script src="path/to/cssloader.js"></script>
+    <link rel="stylesheet" href="./styles.css"/>
   </head>
   <body>
-    <select class="breed-select"></select>
-    <p class="loader" style="display: none;">Loading data, please wait...</p>
-    <p class="error" style="display: none;">Oops! Something went wrong! Try reloading the page!</p>
-    <div class="cat-info"></div>
+    <div class="conteiner">
+      <select class="breed-select"></select>
+     <p class="loader">Loading data, please wait...</p>
+    <div class="cat-info">
+      <div>
+        <img class="image" width="500">
+      </div>
+      <div class="collection">
+        <h1 class="cats-breed"></h1>
+        <p class="cats-description"></p>
+        <p class="cats-temperament"></p>
+      </div>
+    </div>
+  </div>
 
     <script src="index.js" type="module"></script>
   </body>
 </html>
+
 
 
 <!-- <!DOCTYPE html>
